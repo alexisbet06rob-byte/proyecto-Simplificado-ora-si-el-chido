@@ -1,0 +1,10 @@
+# Permisos mínimos por usuario (principio de menor privilegio)
+# El backend solo LEE la telemetría y el estado.
+user backend
+topic read motor/+/telemetria
+topic read motor/+/estado
+
+# El dispositivo (ESP32 o simulador) solo PUBLICA en sus temas.
+user dispositivo
+topic write motor/+/telemetria
+topic write motor/+/estado

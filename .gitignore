@@ -1,0 +1,10 @@
+# Dependencias (se reinstalan con npm install)
+node_modules/
+# Secretos: NUNCA se suben a Git
+.env
+mosquitto/passwd
+firmware/bomba_esp32/secrets.h
+# Datos y compilados que se regeneran
+mosquitto/data/
+frontend/dist/
+.DS_Store

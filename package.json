@@ -24,5 +24,8 @@
     "url": "https://github.com/alexisbet06rob-byte/proyecto-Simplificado-ora-si-el-chido/issues"
   },
   "homepage": "https://github.com/alexisbet06rob-byte/proyecto-Simplificado-ora-si-el-chido#readme",
-  "private": "true"
+  "private": "true",
+  "dependencies": {
+    "mqtt": "^5.16.1"
+  }
 }

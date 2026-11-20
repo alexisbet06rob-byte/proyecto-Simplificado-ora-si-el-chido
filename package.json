@@ -1,0 +1,28 @@
+{
+  "name": "dwssr-bomba",
+  "version": "1.0.0",
+  "description": "(En construcción; se completa en el último commit.)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env backend/server.js",
+    "simular": "node --env-file=.env simulador/simulador.js",
+    "evaluar": "node backend/scripts/evaluar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisbet06rob-byte/proyecto-Simplificado-ora-si-el-chido.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alexisbet06rob-byte/proyecto-Simplificado-ora-si-el-chido/issues"
+  },
+  "homepage": "https://github.com/alexisbet06rob-byte/proyecto-Simplificado-ora-si-el-chido#readme",
+  "private": "true"
+}

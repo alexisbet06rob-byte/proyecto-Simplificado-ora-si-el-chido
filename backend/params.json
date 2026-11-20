@@ -1,0 +1,39 @@
+{
+  "k": 3,
+  "umbral": {
+    "temperatura_C": {
+      "min": 30,
+      "max": 50
+    },
+    "humedad_pct": {
+      "min": 20,
+      "max": 65
+    },
+    "caudal_Lmin": {
+      "min": 4,
+      "max": 8
+    }
+  },
+  "mad": {
+    "ventana": 120,
+    "zLim": 3
+  },
+  "ewma": {
+    "lambda": 0.1,
+    "L": 4
+  },
+  "baseline": {
+    "temperatura_C": {
+      "mu": 39.99932333333327,
+      "sigma": 0.4423142035838518
+    },
+    "humedad_pct": {
+      "mu": 44.96782866666669,
+      "sigma": 1.039509618751333
+    },
+    "caudal_Lmin": {
+      "mu": 6.000209333333332,
+      "sigma": 0.16207926858719282
+    }
+  }
+}

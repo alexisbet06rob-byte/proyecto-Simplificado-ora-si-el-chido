@@ -26,6 +26,8 @@
   "homepage": "https://github.com/alexisbet06rob-byte/proyecto-Simplificado-ora-si-el-chido#readme",
   "private": "true",
   "dependencies": {
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2",
     "mqtt": "^5.16.1"
   }
 }
